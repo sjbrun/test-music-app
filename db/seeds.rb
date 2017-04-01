@@ -9,12 +9,12 @@
 require 'csv'
 
 User.create([
-  { username: 'SammyN', email: 'sammy.nave@gmail.com', password: 'password', authentication_token: '1232' },
-  { username: 'SammyJ', email: 'sjbrunster@gmail.com', password: 'password', authentication_token: '1233' },
-  { username: 'benbruno', email: 'ohschnap@gmail.com', password: 'password', authentication_token: '1234' },
-  { username: 'Jer', email: 'jeremy.bohn@gmail.com', password: 'password', 'authentication_token': '1235' },
-  { username: 'Scott', email: 'scottminkin@gmail.com', password: 'password', 'authentication_token': '1236' },
-  { username: 'Dave', email: 'emceeguertin@gmail.com', password: 'password', 'authentication_token': '1237' }
+  { username: 'Scruggs', email: 'scruggs@example.com', password: 'password', authentication_token: '1232' },
+  { username: 'TestUser', email: 'testuser@example.com', password: 'password', authentication_token: '1233' },
+  { username: 'Monroe', email: 'monroe@example.com', password: 'password', authentication_token: '1234' },
+  { username: 'Belle', email: 'belle@example.com', password: 'password', 'authentication_token': '1235' },
+  { username: 'Grisman', email: 'grisman@example.com', password: 'password', 'authentication_token': '1236' },
+  { username: 'Rhonda', email: 'rhonda@example.com', password: 'password', 'authentication_token': '1237' }
 ])
 
 Genre.create([
